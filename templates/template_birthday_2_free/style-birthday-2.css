@@ -274,6 +274,17 @@
 		background-color: #fff;
 		color: #768792;
 	}
+	.button-pink{
+		background-color: #e5d5cc;
+		padding: 10px 20px;
+		color: #fff;
+		border-radius: 25px;
+		border: 2px solid #e5d5cc:
+	}
+	.button-pink:hover{
+		background-color: #fff;
+		color: #e5d5cc;
+	}
 	@media screen and (max-width: 846px) {
 		p, a, label, th, td, li, input{
 			font-size: 9pt;
