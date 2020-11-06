@@ -44,7 +44,7 @@
 	h6{font-size: 20px !important;}
 	p,a,label,th,td,li, input{
 		font-family: "TitilliumWeb Light";
-		font-size: 15px !important;
+		font-size: 14px !important;
 		line-height: 23px !important;
 		color: #fff !important;
 	}
@@ -499,8 +499,8 @@
             border-bottom: 1px solid transparent;
         }
         #dateandtime form table tr:last-child td label{margin-top: 0;}
-        #dateandtime form table tr td:first-child{width: 25%;}
-        #dateandtime form table tr td:last-child{width: 75%;}
+        #dateandtime form table tr td:first-child{}
+        #dateandtime form table tr td:last-child{}
         #dateandtime form label{
             margin-top: .5rem;
             margin-bottom: 0;
@@ -509,7 +509,7 @@
         #dateandtime form input[type=email],
         #dateandtime form input[type=number]{
             display: inline-block;
-            width: 99%;
+            width: 75%;
             background: transparent;
             border: none;
             border-radius: 0;
